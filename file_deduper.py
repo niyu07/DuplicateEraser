@@ -24,7 +24,7 @@ folder_path = "~/Downloads/"  # ホームディレクトリが含まれている
 collected_files = collect_files_with_pattern(folder_path)
 
 # 作成したいディレクトリ名
-dir_name = "DuplicateFiles"  # この名前を変えたい
+dir_name = "DuplicateFiles" 
 
 # 作成するディレクトリのパスを指定
 make_dir_path = os.path.expanduser(os.path.join("~/Downloads/", dir_name))
